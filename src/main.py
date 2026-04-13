@@ -128,7 +128,7 @@ def main():
     actual_trials = all_valid[PRACTICE_COUNT : PRACTICE_COUNT + NUM_TRIALS_ACTUAL]
 
     # --- 3. 初始化窗口与组件 ---
-    win = visual.Window(size=(1280, 800), fullscr=False, color='white', useRetina=True, units='pix')
+    win = visual.Window(fullscr=True, color='white', useRetina=True, units='pix')
 
     # 持续显示的提示语 (英文)
     hint_text = f"[{config_dict['keys']['same'].upper()}] Same    [{config_dict['keys']['diff'].upper()}] Different"

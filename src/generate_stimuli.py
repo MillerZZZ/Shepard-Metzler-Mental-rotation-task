@@ -42,7 +42,7 @@ def main():
     # 参数配置
     complexities = [3, 4, 5]
     angles = [0, 45, 90, 135, 180]
-    trials_per_condition = 10 # 每个复杂度生成10组骨架
+    trials_per_condition = 100 # 每个复杂度生成10组骨架
 
     print(f"🚀 开始生成刺激物。命名模式：[骨架ID]_[复杂度]_[角度]_[类型].png")
 
