@@ -3,3 +3,4 @@ data/
 stimuli/
 */__pycache__/
 .DS_Store
+config.ini
